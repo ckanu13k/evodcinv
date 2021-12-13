@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>evodcinv’s documentation &#8212; evodcinv 2.0.0 documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/blank.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API Reference" href="api/index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="#">
+<p class="title">evodcinv</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="api/index.html">
+  API Reference
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   evodcinv’s documentation
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#evodcinv">
+   evodcinv
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#features">
+     Features
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#installation">
+     Installation
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#documentation">
+     Documentation
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#usage">
+     Usage
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#contributing">
+     Contributing
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="evodcinv-s-documentation">
+<h1>evodcinv’s documentation<a class="headerlink" href="#evodcinv-s-documentation" title="Permalink to this headline">¶</a></h1>
+</section>
+<section id="evodcinv">
+<h1>evodcinv<a class="headerlink" href="#evodcinv" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://github.com/keurfonluu/evodcinv/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/keurfonluu/evodcinv" /></a> <a class="reference external" href="https://github.com/keurfonluu/evodcinv"><img alt="Stars" src="https://img.shields.io/github/stars/keurfonluu/evodcinv?logo=github" /></a> <a class="reference external" href="https://pypi.org/pypi/evodcinv/"><img alt="Pyversions" src="https://img.shields.io/pypi/pyversions/evodcinv.svg?style=flat" /></a> <a class="reference external" href="https://pypi.org/project/evodcinv"><img alt="Version" src="https://img.shields.io/pypi/v/evodcinv.svg?style=flat" /></a> <a class="reference external" href="https://pepy.tech/project/evodcinv"><img alt="Downloads" src="https://pepy.tech/badge/evodcinv" /></a> <a class="reference external" href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg?style=flat" /></a> <a class="reference external" href="https://www.codacy.com/gh/keurfonluu/evodcinv/dashboard?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=keurfonluu/evodcinv&amp;amp;utm_campaign=Badge_Grade"><img alt="Codacy Badge" src="https://img.shields.io/codacy/grade/bd53f27ac85d419d996c434353f08760.svg?style=flat" /></a> <a class="reference external" href="https://codecov.io/gh/keurfonluu/evodcinv"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/keurfonluu/evodcinv.svg?style=flat" /></a> <a class="reference external" href="https://github.com/keurfonluu/evodcinv"><img alt="Build" src="https://img.shields.io/github/workflow/status/keurfonluu/evodcinv/Python%20package" /></a> <a class="reference external" href="https://keurfonluu.github.io/evodcinv/"><img alt="Travis" src="https://img.shields.io/travis/com/keurfonluu/evodcinv/master?label=docs" /></a> <a class="reference external" href="https://doi.org/10.5281/zenodo.5775193"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.5775193.svg?style=flat" /></a></p>
+<p><strong>evodcinv</strong> is a Python library to invert surface wave dispersion data (e.g., phase velocity dispersion curves) for an isotropic layered velocity model using Evolutionary Algorithms. It relies on <a class="reference external" href="https://github.com/keurfonluu/stochopy">stochopy</a> for the evolutionary optimizers while forward modeling is heavy-lifted by <a class="reference external" href="https://github.com/keurfonluu/disba">disba</a>.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="https://raw.githubusercontent.com/keurfonluu/evodcinv/master/.github/sample.png"><img alt="sample" src="https://raw.githubusercontent.com/keurfonluu/evodcinv/master/.github/sample.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Inversion of phase velocity dispersion curve (fundamental mode).</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<p>Invertible data curves:</p>
+<ul class="simple">
+<li><p>Love-wave phase and/or group velocity dispersion curves,</p></li>
+<li><p>Rayleigh-wave phase and/or group velocity dispersion curves,</p></li>
+<li><p>Rayleigh-wave ellipticity (experimental).</p></li>
+</ul>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>The recommended way to install <strong>evodcinv</strong> and all its dependencies is through the Python Package Index:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install evodcinv --user
+</pre></div>
+</div>
+<p>Otherwise, clone and extract the package, then run from the package location:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install . --user
+</pre></div>
+</div>
+<p>To test the integrity of the installed package, check out this repository and run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pytest
+</pre></div>
+</div>
+</section>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>Refer to the online <a class="reference external" href="https://keurfonluu.github.io/evodcinv/">documentation</a> for detailed description of the API and examples.</p>
+<p>Alternatively, the documentation can be built using <a class="reference external" href="https://www.sphinx-doc.org/en/master/">Sphinx</a>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install -r doc/requirements.txt
+sphinx-build -b html doc/source doc/build
+</pre></div>
+</div>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>The following example inverts a Rayleigh-wave phase velocity dispersion curve (fundamental mode).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">evodcinv</span> <span class="kn">import</span> <span class="n">EarthModel</span><span class="p">,</span> <span class="n">Layer</span><span class="p">,</span> <span class="n">Curve</span>
+
+<span class="c1"># Initialize model</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">EarthModel</span><span class="p">()</span>
+
+<span class="c1"># Build model search boundaries from top to bottom</span>
+<span class="c1"># First argument is the bounds of layer&#39;s thickness [km]</span>
+<span class="c1"># Second argument is the bounds of layer&#39;s S-wave velocity [km/s]</span>
+<span class="n">model</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Layer</span><span class="p">([</span><span class="mf">0.001</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">]))</span>
+<span class="n">model</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Layer</span><span class="p">([</span><span class="mf">0.001</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">]))</span>
+
+<span class="c1"># Configure model</span>
+<span class="n">model</span><span class="o">.</span><span class="n">configure</span><span class="p">(</span>
+    <span class="n">optimizer</span><span class="o">=</span><span class="s2">&quot;cpso&quot;</span><span class="p">,</span>  <span class="c1"># Evolutionary algorithm</span>
+    <span class="n">misfit</span><span class="o">=</span><span class="s2">&quot;rmse&quot;</span><span class="p">,</span>  <span class="c1"># Misfit function type</span>
+    <span class="n">optimizer_args</span><span class="o">=</span><span class="p">{</span>
+        <span class="s2">&quot;popsize&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>  <span class="c1"># Population size</span>
+        <span class="s2">&quot;maxiter&quot;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>  <span class="c1"># Number of iterations</span>
+        <span class="s2">&quot;workers&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="c1"># Number of cores</span>
+        <span class="s2">&quot;seed&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="p">},</span>
+<span class="p">)</span>
+
+<span class="c1"># Define the dispersion curves to invert</span>
+<span class="c1"># period and velocity are assumed to be data arrays</span>
+<span class="n">curves</span> <span class="o">=</span> <span class="p">[</span><span class="n">Curve</span><span class="p">(</span><span class="n">period</span><span class="p">,</span> <span class="n">velocity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;rayleigh&quot;</span><span class="p">,</span> <span class="s2">&quot;phase&quot;</span><span class="p">)]</span>
+
+<span class="c1"># Run inversion</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">invert</span><span class="p">(</span><span class="n">curves</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Expected output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--------------------------------------------------------------------------------</span>
+<span class="n">Best</span> <span class="n">model</span> <span class="n">out</span> <span class="n">of</span> <span class="mi">1000</span> <span class="n">models</span> <span class="p">(</span><span class="mi">1</span> <span class="n">run</span><span class="p">)</span>
+
+<span class="n">Velocity</span> <span class="n">model</span>                                    <span class="n">Model</span> <span class="n">parameters</span>
+<span class="o">----------------------------------------</span>          <span class="o">------------------------------</span>
+         <span class="n">d</span>        <span class="n">vp</span>        <span class="n">vs</span>       <span class="n">rho</span>                   <span class="n">d</span>        <span class="n">vs</span>        <span class="n">nu</span>
+      <span class="p">[</span><span class="n">km</span><span class="p">]</span>    <span class="p">[</span><span class="n">km</span><span class="o">/</span><span class="n">s</span><span class="p">]</span>    <span class="p">[</span><span class="n">km</span><span class="o">/</span><span class="n">s</span><span class="p">]</span>   <span class="p">[</span><span class="n">g</span><span class="o">/</span><span class="n">cm3</span><span class="p">]</span>                <span class="p">[</span><span class="n">km</span><span class="p">]</span>    <span class="p">[</span><span class="n">km</span><span class="o">/</span><span class="n">s</span><span class="p">]</span>       <span class="p">[</span><span class="o">-</span><span class="p">]</span>
+<span class="o">----------------------------------------</span>          <span class="o">------------------------------</span>
+    <span class="mf">0.0296</span>    <span class="mf">0.5033</span>    <span class="mf">0.2055</span>    <span class="mf">2.0000</span>              <span class="mf">0.0296</span>    <span class="mf">0.2055</span>    <span class="mf">0.4000</span>
+    <span class="mf">1.0000</span>    <span class="mf">1.8191</span>    <span class="mf">1.0080</span>    <span class="mf">2.0000</span>                   <span class="o">-</span>    <span class="mf">1.0080</span>    <span class="mf">0.2785</span>
+<span class="o">----------------------------------------</span>          <span class="o">------------------------------</span>
+
+<span class="n">Number</span> <span class="n">of</span> <span class="n">layers</span><span class="p">:</span> <span class="mi">2</span>
+<span class="n">Number</span> <span class="n">of</span> <span class="n">parameters</span><span class="p">:</span> <span class="mi">5</span>
+<span class="n">Best</span> <span class="n">model</span> <span class="n">misfit</span><span class="p">:</span> <span class="mf">0.0153</span>
+<span class="o">--------------------------------------------------------------------------------</span>
+</pre></div>
+</div>
+</section>
+<section id="contributing">
+<h2>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h2>
+<p>Please refer to the <a class="reference external" href="https://github.com/keurfonluu/evodcinv/blob/master/CONTRIBUTING.rst">Contributing
+Guidelines</a> to see how you can help. This project is released with a <a class="reference external" href="https://github.com/keurfonluu/evodcinv/blob/master/CODE_OF_CONDUCT.rst">Code of Conduct</a> which you agree to abide by when contributing.</p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="api/index.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">API Reference</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Keurfon Luu.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.1.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
